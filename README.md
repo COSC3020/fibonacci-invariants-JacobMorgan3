@@ -30,4 +30,5 @@ most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
 ### Answer
-A good invariant is 
+A good invariant would be that n is always greater or equal to zero. This helps us with our base case, and show that we have a terminating condition for our function. 
+
