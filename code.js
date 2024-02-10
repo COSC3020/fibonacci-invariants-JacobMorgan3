@@ -1,13 +1,8 @@
 function fib(n) {
     var array = [];
 
-    if (n == 2) {
-        array.unshift(1);
-        array.unshift(1);
-        array.unshift(0);
-        return array;
-    }
-    else if (n == 1) {
+   
+    if (n == 1) {
         array.unshift(1);
         array.unshift(0);
         return array;
