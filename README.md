@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rzkZS2Jf)
 # Fibonacci Invariants
 
 Recall the definition of the Fibonacci series: the first number is 0, the second
@@ -27,3 +28,6 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+### Answer
+A good invariant would be that we know what the previous two fibonacci numbers are, for all numbers greater than $-1$. With each iteration of the loop we can calculate the the new fibonacci number by using the last two. This is a good choice as an invariant because it allows us to prove that our algorithm works, and has an end to the loop. 
