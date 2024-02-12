@@ -30,4 +30,4 @@ most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
 ### Answer
-A good invariant would be that the first two numbers: 0 and 1 are already evaluated to be there fibonacci numbers. with each iteration of the loop we can calculate the the new fibonacci number by using the last two. This is a good choice as an invariant because it allows us to prove that our algorithm works. 
+A good invariant would be that we know what the previous two fibonacci numbers are, for all numbers greater than $-1$. With each iteration of the loop we can calculate the the new fibonacci number by using the last two. This is a good choice as an invariant because it allows us to prove that our algorithm works, and has an end to the loop. 
